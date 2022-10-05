@@ -51,10 +51,100 @@
         </div>
       </nav>
 
-      <div class="container">
-
-        If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough. -Oprah Winfrey
+      <div id="section-1" class="container">
+        <img src="" alt="">
+        
       </div>
+
+      <div class="container-fluid p-sm-5 p-md-3" >
+
+        Spacing utilities that apply to all breakpoints, from xs to xxl, have no breakpoint abbreviation in them. This is because those classes are applied from min-width: 0 and up, and thus are not bound by a media query. The remaining breakpoints, however, do include a breakpoint abbreviation.
+
+      </div>
+
+      <div class="d-sm-flex p-5">
+
+        Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities. For more complex implementations, custom CSS may be necessary.
+
+      </div>
+
+      <div class="containter d-md-flex justify-content-around">
+        <div class="boxes-1">1</div>
+        <div class="boxes-1 invisible">2</div>
+        <div class="boxes-1">3</div>
+      </div>
+
+      <div class="containter d-md-flex justify-content-around">
+        <div class="boxes-2 d-none d-md-block">1</div>
+        <div class="boxes-2">2</div>
+        <div class="boxes-2">3</div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col align-self-start">Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities. For more complex implementations, custom CSS may be necessary.
+
+            </div>
+            <div class="col align-self-end"><img src="images/bike-red.jpg" alt="" height="400px"></div>
+    
+        </div>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col"><img src="images/bike-red.jpg" alt="" height="400px"></div>
+            <div class="col">
+                Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities. For more complex implementations, custom CSS may be necessary.
+            </div>
+        </div>
+
+        <div id="carousel-1" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="reset" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="reset" data-bs-target="#carousel-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="reset" data-bs-target="#carousel-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="reset" data-bs-target="#carousel-1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/road-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/road-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/bike-red.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+
+              <div class="carousel-item">
+                <img src="images/road-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
     
 </body>
